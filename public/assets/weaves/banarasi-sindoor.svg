@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="katan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#b01e28"/>
+      <stop offset="50%" stop-color="#85121a"/>
+      <stop offset="100%" stop-color="#9e1b24"/>
+    </linearGradient>
+    <linearGradient id="kadwa" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d4aa50"/>
+      <stop offset="50%" stop-color="#fae29c"/>
+      <stop offset="100%" stop-color="#c4973b"/>
+    </linearGradient>
+    <pattern id="jaal" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M0 40 L40 0 L80 40 L40 80 Z" fill="none" stroke="#f0d184" stroke-width="1.4" opacity="0.55"/>
+      <circle cx="40" cy="40" r="9" fill="#f0d184" opacity="0.55"/>
+      <circle cx="40" cy="40" r="4" fill="#85121a"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#katan)"/>
+  <rect width="800" height="450" fill="url(#jaal)"/>
+  <rect y="450" width="800" height="115" fill="url(#kadwa)" opacity="0.93"/>
+  <rect y="466" width="800" height="82" fill="none" stroke="#85121a" stroke-width="4" stroke-dasharray="16 10"/>
+  <rect y="565" width="800" height="35" fill="#630c12"/>
+</svg>

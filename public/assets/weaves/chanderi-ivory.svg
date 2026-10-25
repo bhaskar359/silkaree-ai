@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="chanderi" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fbf5e8"/>
+      <stop offset="55%" stop-color="#efe4ce"/>
+      <stop offset="100%" stop-color="#f7efe0"/>
+    </linearGradient>
+    <linearGradient id="roseZari" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d4af68"/>
+      <stop offset="50%" stop-color="#f3dca2"/>
+      <stop offset="100%" stop-color="#c99f54"/>
+    </linearGradient>
+    <pattern id="ashrafi" width="84" height="84" patternUnits="userSpaceOnUse">
+      <circle cx="42" cy="42" r="9" fill="#d4af68" opacity="0.65"/>
+      <circle cx="42" cy="42" r="5" fill="none" stroke="#fbf5e8" stroke-width="1.2"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#chanderi)"/>
+  <rect width="800" height="455" fill="url(#ashrafi)"/>
+  <rect y="455" width="800" height="22" fill="#c78d7e" opacity="0.85"/>
+  <rect y="477" width="800" height="85" fill="url(#roseZari)" opacity="0.9"/>
+  <rect y="562" width="800" height="38" fill="#b87868"/>
+</svg>

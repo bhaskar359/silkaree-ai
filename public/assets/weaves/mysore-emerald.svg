@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="crepe" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b6e62"/>
+      <stop offset="50%" stop-color="#064c43"/>
+      <stop offset="100%" stop-color="#095c52"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#cfa858"/>
+      <stop offset="50%" stop-color="#f7e2a9"/>
+      <stop offset="100%" stop-color="#c39845"/>
+    </linearGradient>
+    <pattern id="butti" width="90" height="90" patternUnits="userSpaceOnUse">
+      <circle cx="45" cy="45" r="4" fill="#f2d68d" opacity="0.45"/>
+      <circle cx="45" cy="45" r="8" fill="none" stroke="#f2d68d" stroke-width="0.8" opacity="0.3"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#crepe)"/>
+  <rect width="800" height="460" fill="url(#butti)"/>
+  <rect y="465" width="800" height="10" fill="url(#gold)"/>
+  <rect y="484" width="800" height="72" fill="url(#gold)" opacity="0.9"/>
+  <rect y="500" width="800" height="40" fill="none" stroke="#064c43" stroke-width="2" stroke-dasharray="18 10"/>
+  <rect y="566" width="800" height="34" fill="#043831"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="sico" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d5c7d"/>
+      <stop offset="55%" stop-color="#083d54"/>
+      <stop offset="100%" stop-color="#0b4f6c"/>
+    </linearGradient>
+    <linearGradient id="kuttu" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c99e52"/>
+      <stop offset="50%" stop-color="#f0d394"/>
+      <stop offset="100%" stop-color="#b5893d"/>
+    </linearGradient>
+    <pattern id="gadwalButta" width="72" height="72" patternUnits="userSpaceOnUse">
+      <polygon points="36,26 44,36 36,46 28,36" fill="#e8c882" opacity="0.5"/>
+    </pattern>
+    <pattern id="kuttuTemple" width="36" height="36" patternUnits="userSpaceOnUse">
+      <polygon points="0,36 18,4 36,36" fill="url(#kuttu)"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#sico)"/>
+  <rect width="800" height="420" fill="url(#gadwalButta)"/>
+  <rect y="420" width="800" height="36" fill="url(#kuttuTemple)"/>
+  <rect y="456" width="800" height="110" fill="#004d49"/>
+  <rect y="468" width="800" height="86" fill="url(#kuttu)" opacity="0.88"/>
+  <rect y="566" width="800" height="34" fill="#062c3d"/>
+</svg>

@@ -1,0 +1,153 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #fef9f0;
+  --color-surface-dim: #ded9d1;
+  --color-surface-bright: #fef9f0;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f8f3ea;
+  --color-surface-container: #f2ede4;
+  --color-surface-container-high: #ece8df;
+  --color-surface-container-highest: #e7e2d9;
+  --color-on-surface: #1d1c16;
+  --color-on-surface-variant: #3e4948;
+  --color-inverse-surface: #32302b;
+  --color-inverse-on-surface: #f5f0e7;
+  --color-outline: #6e7978;
+  --color-outline-variant: #bec9c7;
+  --color-surface-tint: #006a65;
+  --color-primary: #00534f;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #006d68;
+  --color-on-primary-container: #98ebe5;
+  --color-inverse-primary: #82d5ce;
+  --color-secondary: #745b25;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #fedb99;
+  --color-on-secondary-container: #795f29;
+  --color-tertiary: #314e4f;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #486667;
+  --color-on-tertiary-container: #c2e3e3;
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+  --color-primary-fixed: #9ef1ea;
+  --color-primary-fixed-dim: #82d5ce;
+  --color-on-primary-fixed: #00201e;
+  --color-on-primary-fixed-variant: #00504c;
+  --color-secondary-fixed: #ffdea2;
+  --color-secondary-fixed-dim: #e4c282;
+  --color-on-secondary-fixed: #261900;
+  --color-on-secondary-fixed-variant: #5a430f;
+  --color-tertiary-fixed: #c8e9e9;
+  --color-tertiary-fixed-dim: #adcccd;
+  --color-on-tertiary-fixed: #002021;
+  --color-on-tertiary-fixed-variant: #2e4c4d;
+  --color-background: #fef9f0;
+  --color-on-background: #1d1c16;
+  --color-surface-variant: #e7e2d9;
+
+  --font-headline-xl: "Playfair Display", Georgia, serif;
+  --font-headline-xl-mobile: "Playfair Display", Georgia, serif;
+  --font-headline-lg: "Playfair Display", Georgia, serif;
+  --font-headline-lg-mobile: "Playfair Display", Georgia, serif;
+  --font-headline-md: "Playfair Display", Georgia, serif;
+  --font-headline-sm: "Playfair Display", Georgia, serif;
+  --font-body-lg: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-body-md: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-body-sm: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-label-lg: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-label-md: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-label-sm: "Plus Jakarta Sans", system-ui, sans-serif;
+
+  --text-headline-xl: 48px;
+  --text-headline-xl--line-height: 56px;
+  --text-headline-xl--letter-spacing: -0.02em;
+  --text-headline-xl--font-weight: 600;
+
+  --text-headline-xl-mobile: 32px;
+  --text-headline-xl-mobile--line-height: 40px;
+  --text-headline-xl-mobile--letter-spacing: -0.01em;
+  --text-headline-xl-mobile--font-weight: 600;
+
+  --text-headline-lg: 36px;
+  --text-headline-lg--line-height: 44px;
+  --text-headline-lg--letter-spacing: -0.01em;
+  --text-headline-lg--font-weight: 600;
+
+  --text-headline-lg-mobile: 26px;
+  --text-headline-lg-mobile--line-height: 34px;
+  --text-headline-lg-mobile--letter-spacing: 0em;
+  --text-headline-lg-mobile--font-weight: 600;
+
+  --text-headline-md: 24px;
+  --text-headline-md--line-height: 32px;
+  --text-headline-md--letter-spacing: 0em;
+  --text-headline-md--font-weight: 500;
+
+  --text-headline-sm: 20px;
+  --text-headline-sm--line-height: 28px;
+  --text-headline-sm--letter-spacing: 0.01em;
+  --text-headline-sm--font-weight: 500;
+
+  --text-body-lg: 18px;
+  --text-body-lg--line-height: 28px;
+
+  --text-body-md: 15px;
+  --text-body-md--line-height: 24px;
+
+  --text-body-sm: 13px;
+  --text-body-sm--line-height: 20px;
+  --text-body-sm--letter-spacing: 0.01em;
+
+  --text-label-lg: 14px;
+  --text-label-lg--line-height: 20px;
+  --text-label-lg--letter-spacing: 0.04em;
+  --text-label-lg--font-weight: 600;
+
+  --text-label-md: 12px;
+  --text-label-md--line-height: 16px;
+  --text-label-md--letter-spacing: 0.06em;
+  --text-label-md--font-weight: 600;
+
+  --text-label-sm: 10px;
+  --text-label-sm--line-height: 14px;
+  --text-label-sm--letter-spacing: 0.08em;
+  --text-label-sm--font-weight: 700;
+}
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #fef9f0;
+    color: #1d1c16;
+  }
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  .pt-safe {
+    padding-top: env(safe-area-inset-top, 0px);
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar,
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar,
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  user-select: none;
+}
+.material-symbols-filled {
+  font-variation-settings: 'FILL' 1, 'wght' 500, 'GRAD' 0, 'opsz' 24;
+}
+

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="silk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7c1928"/>
+      <stop offset="45%" stop-color="#580e1a"/>
+      <stop offset="75%" stop-color="#761726"/>
+      <stop offset="100%" stop-color="#420912"/>
+    </linearGradient>
+    <linearGradient id="zari" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c69840"/>
+      <stop offset="50%" stop-color="#f2d68d"/>
+      <stop offset="100%" stop-color="#b88832"/>
+    </linearGradient>
+    <pattern id="checks" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M0 24 H48 M24 0 V48" stroke="#d9b15f" stroke-width="0.6" stroke-opacity="0.22"/>
+    </pattern>
+    <pattern id="temple" width="40" height="40" patternUnits="userSpaceOnUse">
+      <polygon points="0,40 20,6 40,40" fill="url(#zari)" opacity="0.9"/>
+      <circle cx="20" cy="28" r="4" fill="#580e1a"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#silk)"/>
+  <rect width="800" height="600" fill="url(#checks)"/>
+  <rect y="430" width="800" height="40" fill="url(#temple)"/>
+  <rect y="470" width="800" height="95" fill="url(#zari)" opacity="0.92"/>
+  <rect y="484" width="800" height="66" fill="none" stroke="#580e1a" stroke-width="3" stroke-dasharray="12 8"/>
+  <rect y="565" width="800" height="35" fill="#3a0710"/>
+</svg>

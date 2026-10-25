@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <pattern id="kandaangiChecks" width="52" height="52" patternUnits="userSpaceOnUse">
+      <rect width="52" height="52" fill="#a84329"/>
+      <rect x="0" y="0" width="52" height="10" fill="#d9a13b" opacity="0.35"/>
+      <rect x="0" y="0" width="10" height="52" fill="#241f1c" opacity="0.35"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#kandaangiChecks)"/>
+  <rect y="430" width="800" height="32" fill="#241f1c"/>
+  <rect y="462" width="800" height="96" fill="#d9a13b"/>
+  <rect y="482" width="800" height="16" fill="#a84329"/>
+  <rect y="518" width="800" height="16" fill="#241f1c"/>
+  <rect y="558" width="800" height="42" fill="#241f1c"/>
+</svg>

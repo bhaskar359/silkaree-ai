@@ -1,0 +1,6 @@
+{
+  "name": "Silkaree AI",
+  "description": "AI-powered Indian saree discovery using Gemma 4 multimodal visual analysis and natural-language handloom search.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
